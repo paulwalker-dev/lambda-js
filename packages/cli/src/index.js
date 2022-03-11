@@ -1,4 +1,4 @@
-import * as Lambda from '@lambda/lib'
+import Lambda from '@lambda/lib'
 import prompts from 'prompts'
 import chalk from 'chalk'
 
@@ -10,8 +10,19 @@ const main = async () => {
   })
 
   const Number = Lambda.ToNum(responce.x)
-  const Squared = Lambda.Square(Number, Lambda.ToNum(2))
-  const Subtracted = Lambda.Subtract(Squared, Number)
+  const Squared = Lambda.Power(Number)(Lambda.ToNum(2))
+  const Subtracted = Lambda.Subtract(Squared)(Number)
+
+  console.log(
+    `${chalk.green('Squared')}${chalk.red(':')} ${chalk.blue(
+      Lambda.JSNum(Squared)
+    )}`
+  )
+  console.log(
+    `${chalk.green('Subtracted')}${chalk.red(':')} ${chalk.blue(
+      Lambda.JSNum(Subtracted)
+    )}`
+  )
 }
 
 main()
