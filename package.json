@@ -1,0 +1,14 @@
+{
+  "name": "lambda",
+  "private": true,
+  "scripts": {
+    "build": "lerna run build"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "packageManager": "yarn@3.2.0"
+}

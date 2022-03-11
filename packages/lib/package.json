@@ -1,0 +1,13 @@
+{
+  "name": "@lambda/lib",
+  "version": "1.0.0",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.3.2"
+  }
+}
