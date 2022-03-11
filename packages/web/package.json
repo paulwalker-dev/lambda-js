@@ -1,0 +1,18 @@
+{
+  "name": "@lambda/web",
+  "version": "1.0.0",
+  "private": true,
+  "source": "index.html",
+  "scripts": {
+    "build": "parcel build",
+    "dev": "parcel"
+  },
+  "dependencies": {
+    "@lambda/lib": "*",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.3.2"
+  }
+}
