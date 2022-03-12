@@ -6,7 +6,7 @@
   "bin": "dist/index.js",
   "scripts": {
     "build": "parcel build",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build && sed -i '1 s/^/#!/usr/bin/env node\n/' dist/index.js"
   },
   "dependencies": {
     "@lambda-js/lib": "^2.1.1",
