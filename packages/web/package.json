@@ -1,6 +1,6 @@
 {
   "name": "@lambda/web",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "private": true,
   "source": "index.html",
   "scripts": {
@@ -8,7 +8,7 @@
     "dev": "parcel"
   },
   "dependencies": {
-    "@lambda/lib": "^2.0.1",
+    "@lambda/lib": "^2.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
