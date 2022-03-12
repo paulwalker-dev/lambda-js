@@ -1,5 +1,5 @@
 {
-  "name": "@lambda/lib",
+  "name": "@lambda-js/lib",
   "version": "2.0.4",
   "source": "src/index.js",
   "main": "dist/index.js",
@@ -13,5 +13,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "be16764d64d7b29d81c7e2e6c6058801fe410ea6"
+  "gitHead": "2cd65a221b5802705b22acee144c58721dccbfe1"
 }
