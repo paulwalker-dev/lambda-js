@@ -10,7 +10,7 @@
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
-    "@lambda/lib": "^2.0.4",
+    "@lambda-js/lib": "*",
     "chalk": "^5.0.1",
     "prompts": "^2.4.2"
   },
