@@ -1,4 +1,4 @@
-import Lambda from '@lambda/lib'
+import Lambda from '@lambda-js/lib'
 import prompts from 'prompts'
 import chalk from 'chalk'
 
