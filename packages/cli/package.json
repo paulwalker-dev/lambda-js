@@ -17,5 +17,8 @@
   "devDependencies": {
     "parcel": "^2.3.2"
   },
-  "gitHead": "981c7829ad828ec6ee56c232e65c947c46795f86"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b846d9ca1c185747782038ceedc05a6554af1620"
 }
