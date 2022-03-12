@@ -6,7 +6,8 @@
   "module": "dist/index.js",
   "bin": "dist/index.js",
   "scripts": {
-    "build": "parcel build"
+    "build": "parcel build",
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "@lambda/lib": "*",
