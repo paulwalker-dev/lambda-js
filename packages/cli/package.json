@@ -6,7 +6,7 @@
   "bin": "dist/index.js",
   "scripts": {
     "build": "parcel build",
-    "prepublishOnly": "yarn build && sed -i '1 s/^/#!/usr/bin/env node\n/' dist/index.js"
+    "prepublishOnly": "yarn build && sed -i '1 s/^/#!\\/usr\\/bin\\/env node\\n/' dist/index.js"
   },
   "dependencies": {
     "@lambda-js/lib": "^2.1.1",
@@ -18,5 +18,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "8beea72c32c391830e474b99b986fc6f4a0ca598"
+  "gitHead": "032f596a55bf85c4ddc7d797fa95f2510aceb8a6"
 }
