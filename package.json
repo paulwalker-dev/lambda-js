@@ -1,6 +1,5 @@
 {
   "name": "lambda",
-  "private": true,
   "scripts": {
     "build": "lerna run build"
   },
