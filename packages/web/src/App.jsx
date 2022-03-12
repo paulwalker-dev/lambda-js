@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import * as Lambda from '@lambda/lib'
+import * as Lambda from '@lambda-js/lib'
 
 const App = () => {
   const [number, setNumber] = useState('0')
